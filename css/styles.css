@@ -38,10 +38,7 @@ address {
 }
 
 .container {
-  max-width: 1280px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 
 .header-container {
   display: flex;
@@ -62,6 +59,13 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container-clock {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 }
 
 .portfolio {
@@ -87,6 +91,7 @@ color: var(--main);
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   column-gap: 23px;
   row-gap: 32px;
   height: 100%;
